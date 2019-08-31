@@ -5,6 +5,10 @@
 ## Requisitos
 Python 3, Numpy, Matplot (use Pip para instalar todo)
 
+## Uso
+Corra tarea.py.
+Modifique tarea.py para cambiar funciones de activación, entradas, etc. El código está hecho para funcionar con Iris DB, pero cambiando unos pocos valores se puede hacer genérico. No lo hice porque me faltó tiempo (¿qué onda los profes del DCC dejando las tareas para la misma semana? entiendo que la siguiente no se puede evaluar pero whyyy)
+
 ## Retrospectiva
 Programar una red con Numpy me hace apreciar aún más las pequeñas cosas que librerías como Pytorch aportan.
 
