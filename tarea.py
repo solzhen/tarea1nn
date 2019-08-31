@@ -18,6 +18,9 @@ from neuron import *
 from network import *
 from aux_functions import *
 
+epochs = int(input("Ingrese cantidad de epochs para entrenamiento\n"))
+print("Se entrenará sobre base de datos de iris (7 características)")
+
 
 """Random fix"""
 seed = 128
@@ -56,7 +59,7 @@ NN = Red(7, 3, 5, [15, 10, 12, 8, 3], act_fun=a_1)
 print("Training...")
 hit_rate = []
 error = []
-for i in range(1000):  
+for i in range(epochs):  
   #Por cada epoch
   er = (NN.train(train_set, train_set_class))
   output,cach = NN.feed(test_set)
