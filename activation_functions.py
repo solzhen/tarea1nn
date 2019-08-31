@@ -7,7 +7,6 @@ Created on Fri Aug 30 23:55:11 2019
 """
 
 import numpy as np
-import numbers
 
 class ActivationFunction:
   def apply(x):
