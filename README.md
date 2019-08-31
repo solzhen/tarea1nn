@@ -16,19 +16,19 @@ Como se ven en las curvas de abajo, con 10000 epochs la red llega a 95% de preci
 ## Curvas!
 ### 1000 epochs
 #### Error
-![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_1.png "Error")
+![alt text](https://github.com/solzhen/tarea1nn/blob/master/figures/Figure_1.png "Error")
 #### % Acierto
-![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_2.png "% Acierto")
+![alt text](https://github.com/solzhen/tarea1nn/blob/master/figures/Figure_2.png "% Acierto")
 #### % Acierto (acercamiento en últimos epochs)
-![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_3.png "% Acierto Zoom")
+![alt text](https://github.com/solzhen/tarea1nn/blob/master/figures/Figure_3.png "% Acierto Zoom")
 
 ### 10000 epochs
 #### Error
-![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_4.png "Error")
+![alt text](https://github.com/solzhen/tarea1nn/blob/master/figures/Figure_4.png "Error")
 #### % Error (acercamiento en últimos epochs)
-![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_5.png "% Acierto Zoom")
+![alt text](https://github.com/solzhen/tarea1nn/blob/master/figures/Figure_5.png "% Acierto Zoom")
 #### % Acierto
-![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_6.png "% Acierto")
+![alt text](https://github.com/solzhen/tarea1nn/blob/master/figures/Figure_6.png "% Acierto")
 #### % Acierto (acercamiento en últimos epochs)
-![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_7.png "% Acierto Zoom")
+![alt text](https://github.com/solzhen/tarea1nn/blob/master/figures/Figure_7.png "% Acierto Zoom")
 
