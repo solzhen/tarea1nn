@@ -38,7 +38,3 @@ Las siguientes curvas con Tanh en cada capa
 ![alt text](https://github.com/solzhen/tarea1nn/blob/master/figures/Figure_6.png "% Acierto")
 #### % Acierto (acercamiento en últimos epochs)
 ![alt text](https://github.com/solzhen/tarea1nn/blob/master/figures/Figure_7.png "% Acierto Zoom")
-
-La siguiente curva es con Sigmoid, notar lo suave que es
-## 1000 epochs
-
