@@ -74,13 +74,13 @@ for i in range(1000):
 """Plotting"""
 import matplotlib.pyplot as plt
 plt.figure(1)
-plt.subplot(211)
+plt.subplot(111)
 plt.plot(error)
 plt.ylabel('MSE')
 plt.xlabel('Epoch')
 plt.show()
 
-plt.subplot(212)
+plt.subplot(111)
 plt.plot(hit_rate)
 plt.ylabel('% Acierto')
 plt.xlabel('Epoch')
