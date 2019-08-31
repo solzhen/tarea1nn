@@ -71,6 +71,7 @@ for i in range(1000):
   error.append(er)
 
 """Plotting"""
+print ("Plotting")
 import matplotlib.pyplot as plt
 plt.figure(1)
 plt.subplot(111)

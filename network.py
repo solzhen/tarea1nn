@@ -119,8 +119,7 @@ it's only one input")
   def train(self, x, y):  
     z,c = self.feed(x)
     mse = ((y - z)**2).mean(axis=0)
-    error = (y - z) / x.shape[0] # actually the derivative of the error, 
-     #without sum, that¡s done inside function below
+    error = (y - z) / x.shape[0] #
     self.error_propagation(error)
     self.update_parameters(x)
     return mse
