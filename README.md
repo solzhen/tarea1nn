@@ -25,7 +25,7 @@ Como se ven en las curvas de abajo, con 10000 epochs la red llega a 95% de preci
 ### 10000 epochs
 #### Error
 ![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_4.png "Error")
-#### % Erro (acercamiento en últimos epochs)
+#### % Error (acercamiento en últimos epochs)
 ![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_5.png "% Acierto Zoom")
 #### % Acierto
 ![alt text](https://github.com/solzhen/tarea1nn/blob/master/Figure_6.png "% Acierto")
