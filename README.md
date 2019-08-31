@@ -5,6 +5,10 @@
 ## Requisitos
 Python 3, Numpy, Matplot (use Pip para instalar todo)
 
+## Uso
+Corra tarea.py.
+Modifique tarea.py para cambiar funciones de activación, entradas, etc. El código está hecho para funcionar con Iris DB, pero cambiando unos pocos valores se puede hacer genérico. No lo hice porque me faltó tiempo (¿qué onda los profes del DCC dejando las tareas para la misma semana? entiendo que la siguiente no se puede evaluar pero whyyy)
+
 ## Retrospectiva
 Programar una red con Numpy me hace apreciar aún más las pequeñas cosas que librerías como Pytorch aportan.
 
@@ -12,7 +16,7 @@ Las mayores dificultades que tuve en la tarea fueron el mantener consistente el 
 
 Es tremendamente difícil debuggear, ya que incluso si imprimo los pesos en cada iteración, saber como estos aportan al resultado de cada capa requiere hacer calculos manuales, y cuando las capas tienen muchas neuronas se vuelve imposibe, así que mucho del debugging es confiar que la red funciona bien y cambiar parámetros hasta que funcione.
 
-Como se ven en las curvas de abajo, con 10000 epochs la red llega a 95% de precisión. En mi computador se demora cerca de 1 minuto, pero depende (obviamente) de la red. En los graficos de abajo se entrenó sobre 5 capas de (15,10,12,8,3) neuronas respectivamente con Tanh como funció nde activación en todas ellas.
+Como se ven en las curvas de abajo, con 10000 epochs la red llega a 95% de precisión. En mi computador se demora cerca de 1 minuto, pero depende (obviamente) de la red. En los graficos de abajo se entrenó sobre 5 capas de (15,10,12,8,3) neuronas respectivamente con Tanh como función de activación en todas ellas.
 ## Curvas!
 ### 1000 epochs
 #### Error
